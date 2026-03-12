@@ -1,0 +1,8 @@
+task: data_validation
+
+prompt: |
+  Validate the customer table for null values and duplicates
+
+data_source:
+  type: csv
+  path: data/customer.csv
